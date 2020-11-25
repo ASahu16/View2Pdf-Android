@@ -1,27 +1,25 @@
 # View2Pdf-Android
 Android Library to covert view to pdf.
 
-USAGE
------
-
-Addd it in your root build.gradle at the end of the repositories:
-
-'''
-allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
-	}
-'''
-
-
-
-Just add Switcher view in your layout XML and Switcher library in your project via Gradle:
-
+## Setup
 ```gradle
-dependencies {
-  implementation 'com.github.ASahu16:View2Pdf-Android:0.1.1'
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
 }
+
+dependencies {
+    implementation 'com.github.ASahu16:View2Pdf-Android:0.1.1'
+}
+```
+
+
+## Usage
+
+```Java
+		View2Pdf view2Pdf = new View2Pdf(MainActivity.this);
+        view2Pdf.create_pdf(nestedScrollView);
 ```
 
