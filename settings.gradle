@@ -1,0 +1,3 @@
+include ':view2pdf'
+include ':app'
+rootProject.name = "view2pdfExample"
