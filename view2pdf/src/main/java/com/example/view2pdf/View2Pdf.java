@@ -11,4 +11,3 @@ public class View2Pdf {
     }
 
 }
-https://github.com/ASahu16/View2Pdf-Android.git
